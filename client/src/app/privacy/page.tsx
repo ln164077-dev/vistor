@@ -3,8 +3,8 @@ import Link from "next/link"
 import { Shield, Mail, Phone, MapPin, Home } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "سياسة الخصوصية - becar",
-  description: "سياسة الخصوصية وحماية البيانات الشخصية لموقع becar للتأمين",
+  title: "سياسة الخصوصية - qic",
+  description: "سياسة الخصوصية وحماية البيانات الشخصية لموقع qic للتأمين",
 }
 
 export default function PrivacyPolicyPage() {
@@ -40,7 +40,7 @@ export default function PrivacyPolicyPage() {
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mb-4">مقدمة</h2>
             <p className="text-gray-700 leading-relaxed">
-              نحن في becar نلتزم بحماية خصوصيتك وأمان بياناتك الشخصية. توضح هذه السياسة كيفية جمع واستخدام وحماية المعلومات التي تقدمها لنا عند استخدام موقعنا الإلكتروني وخدماتنا.
+              نحن في qic نلتزم بحماية خصوصيتك وأمان بياناتك الشخصية. توضح هذه السياسة كيفية جمع واستخدام وحماية المعلومات التي تقدمها لنا عند استخدام موقعنا الإلكتروني وخدماتنا.
             </p>
           </section>
 

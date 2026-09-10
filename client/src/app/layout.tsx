@@ -9,14 +9,14 @@ import { LegalFooter } from "@/components/legal-footer"
 
 export const metadata: Metadata = {
   title: {
-    default: "تأمين سريع وموثوق - مقارنة أسعار التأمين في السعودية | becar",
-    template: "%s | becar"
+    default: "تأمين سريع وموثوق - مقارنة أسعار التأمين في السعودية | qic",
+    template: "%s | qic"
   },
   description: "احصل على أفضل عروض التأمين في السعودية - مقارنة سريعة وآمنة لأكثر من 20 شركة تأمين. تأمين شامل وضد الغير بأفضل الأسعار.",
-  keywords: ["تأمين", "تأمين سيارات", "مقارنة تأمين", "السعودية", "تأمين شامل", "تأمين ضد الغير", "becar"],
-  authors: [{ name: "becar" }],
-  creator: "becar",
-  publisher: "becar",
+  keywords: ["تأمين", "تأمين سيارات", "مقارنة تأمين", "السعودية", "تأمين شامل", "تأمين ضد الغير", "qic"],
+  authors: [{ name: "qic" }],
+  creator: "qic",
+  publisher: "qic",
   formatDetection: {
     email: false,
     address: false,
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     title: "تأمين سريع وموثوق - مقارنة أسعار التأمين في السعودية",
     description: "احصل على أفضل عروض التأمين في السعودية - مقارنة سريعة وآمنة لأكثر من 20 شركة تأمين",
     url: "https://demacax.com",
-    siteName: "becar - تأمين سريع",
+    siteName: "qic - تأمين سريع",
     locale: "ar_SA",
     type: "website",
     images: [
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
         url: "/apple-icon.png",
         width: 180,
         height: 180,
-        alt: "becar - تأمين سريع وموثوق",
+        alt: "qic - تأمين سريع وموثوق",
       },
     ],
   },
@@ -95,7 +95,7 @@ export default function RootLayout({
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "InsuranceAgency",
-    "name": "تأمين سريع وموثوق - becar",
+    "name": "تأمين سريع وموثوق - qic",
     "description": "احصل على أفضل عروض التأمين في السعودية - مقارنة سريعة وآمنة لأكثر من 20 شركة تأمين",
     "url": "https://markbat-tameen.vercel.app",
     "areaServed": {

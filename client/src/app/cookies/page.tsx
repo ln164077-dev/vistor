@@ -3,8 +3,8 @@ import Link from "next/link"
 import { Cookie, Mail, Phone, MapPin, Home } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "سياسة الكوكيز - becar",
-  description: "سياسة استخدام ملفات تعريف الارتباط (Cookies) في موقع becar",
+  title: "سياسة الكوكيز - qic",
+  description: "سياسة استخدام ملفات تعريف الارتباط (Cookies) في موقع qic",
 }
 
 export default function CookiePolicyPage() {

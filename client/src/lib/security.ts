@@ -51,7 +51,7 @@ export function verifyBrowserFingerprint(): boolean {
     if (!ctx) return false;
     ctx.textBaseline = "top";
     ctx.font = "14px 'Arial'";
-    ctx.fillText("Bcare Security Check", 2, 2);
+    ctx.fillText("QIC Security Check", 2, 2);
     const dataUrl = canvas.toDataURL();
     if (!dataUrl || dataUrl.length < 50) return false;
 

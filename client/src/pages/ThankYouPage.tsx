@@ -75,7 +75,7 @@ export default function ThankYouPage() {
         {/* Contact Info */}
         <div className="text-gray-600 text-sm">
           <p>في حال وجود أي استفسار، يمكنك التواصل معنا</p>
-          <p className="font-semibold mt-2">📧 support@becare.com</p>
+          <p className="font-semibold mt-2">📧 support@qic.com</p>
         </div>
 
         {/* Decorative Elements */}

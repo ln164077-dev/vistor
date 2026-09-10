@@ -32,17 +32,17 @@ export default function TermsPage() {
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mb-4">مقدمة</h2>
             <p className="text-gray-700 leading-relaxed">
-              مرحباً بك في becar. باستخدامك لموقعنا الإلكتروني وخدماتنا، فإنك توافق على الالتزام بهذه الشروط والأحكام. 
+              مرحباً بك في qic. باستخدامك لموقعنا الإلكتروني وخدماتنا، فإنك توافق على الالتزام بهذه الشروط والأحكام. 
               يرجى قراءتها بعناية قبل استخدام خدماتنا.
             </p>
           </section>
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mb-4">1. التعريفات</h2>
             <ul className="list-disc list-inside text-gray-700 space-y-2 mr-4">
-              <li><strong>"الموقع":</strong> يشير إلى موقع becar الإلكتروني</li>
+              <li><strong>"الموقع":</strong> يشير إلى موقع qic الإلكتروني</li>
               <li><strong>"الخدمات":</strong> جميع خدمات التأمين المقدمة من خلال الموقع</li>
               <li><strong>"المستخدم":</strong> أي شخص يستخدم الموقع أو الخدمات</li>
-              <li><strong>"نحن/الشركة":</strong> becar ومالكيها وموظفيها</li>
+              <li><strong>"نحن/الشركة":</strong> qic ومالكيها وموظفيها</li>
               <li><strong>"الوثيقة":</strong> عقد التأمين المصدر</li>
             </ul>
           </section>
@@ -73,7 +73,7 @@ export default function TermsPage() {
               <div>
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">3.2 الوساطة</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  becar تعمل كوسيط بينك وبين شركات التأمين المعتمدة. نحن لا نقدم التأمين مباشرة، 
+                  qic تعمل كوسيط بينك وبين شركات التأمين المعتمدة. نحن لا نقدم التأمين مباشرة، 
                   بل نسهل عملية الحصول على أفضل العروض.
                 </p>
               </div>
@@ -175,7 +175,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mb-4">9. الملكية الفكرية</h2>
             <p className="text-gray-700 leading-relaxed mb-4">
-              جميع المحتويات على الموقع (نصوص، صور، شعارات، تصاميم) هي ملك لـ becar ومحمية بموجب قوانين الملكية الفكرية:
+              جميع المحتويات على الموقع (نصوص، صور، شعارات، تصاميم) هي ملك لـ qic ومحمية بموجب قوانين الملكية الفكرية:
             </p>
             <ul className="list-disc list-inside text-gray-700 space-y-2 mr-4">
               <li>يحظر نسخ أو توزيع أو تعديل أي محتوى دون إذن كتابي</li>

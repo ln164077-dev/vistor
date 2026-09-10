@@ -12,7 +12,7 @@ export function LegalFooter() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 mb-4">
           {/* Brand */}
           <div className="text-center md:text-right">
-            <h3 className="text-lg font-bold text-yellow-400 mb-1">becar</h3>
+            <h3 className="text-lg font-bold text-yellow-400 mb-1">qic</h3>
             <p className="text-gray-300 text-xs">© {currentYear} جميع الحقوق محفوظة</p>
           </div>
 

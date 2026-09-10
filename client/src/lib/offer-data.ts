@@ -811,7 +811,7 @@ export const offerData = [
       },
       {
         id: "5b8fb78d-3aa8-4bd2-a757-b3f5e7ffc528",
-        reason: "خصم بي كير",
+        reason: "خصم qic",
         price: 200,
         offer_id: "c4991baa-4a54-42a6-ae49-70d430929627",
       },
@@ -1080,7 +1080,7 @@ export const offerData = [
       },
       {
         id: "3b9a769f-6218-4317-a3e1-6767a0a651ee",
-        reason: "خصم بي كير",
+        reason: "خصم qic",
         price: 200,
         offer_id: "8d6976ed-02cd-4ba1-ad72-9dfa54928c07",
       },
@@ -1248,7 +1248,7 @@ export const offerData = [
       },
       {
         id: "c440c574-f100-469a-9dfa-62ca6de4d5fb",
-        reason: "خصم بي كير",
+        reason: "خصم qic",
         price: 200,
         offer_id: "8e9e29ce-d359-4845-b615-01910af25317",
       },
@@ -1319,7 +1319,7 @@ export const offerData = [
       },
       {
         id: "fd28fcb2-0e3d-4ded-8ca7-f11fdd019dbb",
-        reason: "خصم بي كير",
+        reason: "خصم qic",
         price: 200,
         offer_id: "2fcf6dff-4e04-4dde-b122-93cf069948cd",
       },
@@ -1381,7 +1381,7 @@ export const offerData = [
       },
       {
         id: "5033f905-4f73-4129-84d7-0ddb396f25c8",
-        reason: "خصم بي كير",
+        reason: "خصم qic",
         price: 200,
         offer_id: "b3b39210-c30d-47d1-a75c-e1b6caa52e58",
       },
@@ -1461,7 +1461,7 @@ export const offerData = [
       },
       {
         id: "e0e61c9e-d3bf-409b-9f24-55fe0a5d6e03",
-        reason: "خصم بي كير",
+        reason: "خصم qic",
         price: 200,
         offer_id: "535a9357-459b-4286-8fbf-6b5de8b1ef83",
       },
@@ -1529,7 +1529,7 @@ export const offerData = [
       },
       {
         id: "50f63664-0456-44ab-b233-3410a4bc6991",
-        reason: "خصم بي كير",
+        reason: "خصم qic",
         price: 200,
         offer_id: "7fb13f24-fb36-4900-9797-fd6cf0d38b6e",
       },
@@ -1597,7 +1597,7 @@ export const offerData = [
       },
       {
         id: "2e76709f-6d15-4293-adf8-3f8c680cb73d",
-        reason: "خصم بي كير",
+        reason: "خصم qic",
         price: 200,
         offer_id: "17c5aa8f-7133-4cb5-bb2f-630578cdc540",
       },
@@ -1667,7 +1667,7 @@ export const offerData = [
       },
       {
         id: "9112ba76-b68c-4973-9e7b-3bdfc8ecdbd7",
-        reason: "خصم بي كير",
+        reason: "خصم qic",
         price: 230.05,
         offer_id: "e2747fd8-120d-42e6-b857-f06a243a395f",
       },
@@ -1735,7 +1735,7 @@ export const offerData = [
       },
       {
         id: "b464cb99-a852-4690-88d0-6b722ff69c80",
-        reason: "خصم بي كير",
+        reason: "خصم qic",
         price: 282.6,
         offer_id: "c3b9563d-cf6d-4fe7-8627-3d598739ed3c",
       },
@@ -1797,7 +1797,7 @@ export const offerData = [
       },
       {
         id: "d2c79ac2-83a3-4bb1-bd34-7d65bf01f954",
-        reason: "خصم بي كير",
+        reason: "خصم qic",
         price: 335.16,
         offer_id: "d9e5cdd7-7c23-44fa-8fcb-0c982f272f91",
       },
