@@ -10,11 +10,11 @@ const siteUrl = import.meta.env.VITE_SITE_URL || "https://demacax.com"
 
 export const metadata: Metadata = {
   title: {
-    default: "تأمين سريع وموثوق - مقارنة أسعار التأمين في السعودية | qic",
+    default: "تأمين سريع وموثوق - مقارنة أسعار التأمين في قطر | qic",
     template: "%s | qic"
   },
-  description: "احصل على أفضل عروض التأمين في السعودية - مقارنة سريعة وآمنة لأكثر من 20 شركة تأمين. تأمين شامل وضد الغير بأفضل الأسعار.",
-  keywords: ["تأمين", "تأمين سيارات", "مقارنة تأمين", "السعودية", "تأمين شامل", "تأمين ضد الغير", "qic"],
+  description: "احصل على أفضل عروض التأمين في قطر - مقارنة سريعة وآمنة لأكثر من 20 شركة تأمين. تأمين شامل وضد الغير بأفضل الأسعار.",
+  keywords: ["تأمين", "تأمين سيارات", "مقارنة تأمين", "قطر", "تأمين شامل", "تأمين ضد الغير", "qic"],
   authors: [{ name: "qic" }],
   creator: "qic",
   publisher: "qic",
@@ -28,8 +28,8 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   openGraph: {
-    title: "تأمين سريع وموثوق - مقارنة أسعار التأمين في السعودية",
-    description: "احصل على أفضل عروض التأمين في السعودية - مقارنة سريعة وآمنة لأكثر من 20 شركة تأمين",
+    title: "تأمين سريع وموثوق - مقارنة أسعار التأمين في قطر",
+    description: "احصل على أفضل عروض التأمين في قطر - مقارنة سريعة وآمنة لأكثر من 20 شركة تأمين",
     url: siteUrl,
     siteName: "qic - تأمين سريع",
     locale: "ar_SA",
@@ -45,8 +45,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "تأمين سريع وموثوق - مقارنة أسعار التأمين في السعودية",
-    description: "احصل على أفضل عروض التأمين في السعودية - مقارنة سريعة وآمنة",
+    title: "تأمين سريع وموثوق - مقارنة أسعار التأمين في قطر",
+    description: "احصل على أفضل عروض التأمين في قطر - مقارنة سريعة وآمنة",
     images: ["/apple-icon.png"],
   },
   robots: {
@@ -97,11 +97,11 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "InsuranceAgency",
     "name": "تأمين سريع وموثوق - qic",
-    "description": "احصل على أفضل عروض التأمين في السعودية - مقارنة سريعة وآمنة لأكثر من 20 شركة تأمين",
+    "description": "احصل على أفضل عروض التأمين في قطر - مقارنة سريعة وآمنة لأكثر من 20 شركة تأمين",
     "url": siteUrl,
     "areaServed": {
       "@type": "Country",
-      "name": "Saudi Arabia"
+      "name": "Qatar"
     },
     "priceRange": "$$",
     "availableLanguage": ["ar", "en"],

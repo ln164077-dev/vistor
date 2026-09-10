@@ -130,7 +130,7 @@ export default function TermsPage() {
               <div>
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">6.1 الأسعار</h3>
                 <ul className="list-disc list-inside text-gray-700 space-y-2 mr-4">
-                  <li>جميع الأسعار معروضة بالريال السعودي</li>
+                  <li>جميع الأسعار معروضة بالريال القطري</li>
                   <li>الأسعار شاملة ضريبة القيمة المضافة</li>
                   <li>قد تتغير الأسعار دون إشعار مسبق</li>
                   <li>السعر النهائي هو المعروض عند الدفع</li>
@@ -148,7 +148,7 @@ export default function TermsPage() {
               <div>
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">6.3 استرداد المدفوعات</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  سياسة الاسترداد تخضع لشروط شركة التأمين وتعليمات البنك المركزي السعودي. 
+                  سياسة الاسترداد تخضع لشروط شركة التأمين وتعليمات مصرف قطر المركزي. 
                   يرجى مراجعة وثيقة التأمين للتفاصيل.
                 </p>
               </div>
@@ -242,8 +242,8 @@ export default function TermsPage() {
               <ul className="list-disc list-inside text-gray-700 space-y-2 mr-4">
                 <li>يجب محاولة حل النزاع ودياً أولاً</li>
                 <li>إذا لم يتم التوصل لحل، يمكن اللجوء للجهات المختصة</li>
-                <li>تخضع هذه الشروط لقوانين المملكة العربية السعودية</li>
-                <li>المحاكم السعودية هي المختصة بالنظر في أي نزاع</li>
+                <li>تخضع هذه الشروط لقوانين دولة قطر</li>
+                <li>المحاكم القطرية هي المختصة بالنظر في أي نزاع</li>
               </ul>
             </div>
           </section>

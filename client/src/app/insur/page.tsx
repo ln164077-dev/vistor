@@ -103,7 +103,7 @@ export default function InsurancePage() {
     // Validate vehicle value
     const valueNum = parseInt(vehicleValue)
     if (valueNum < 10000 || valueNum > 1000000) {
-      alert('قيمة المركبة يجب أن تكون بين 10,000 و 1,000,000 ريال')
+      alert('قيمة المركبة يجب أن تكون بين 10,000 و  ‏1,000,000 ريال قطري')
       return
     }
     
@@ -156,7 +156,7 @@ export default function InsurancePage() {
           <span className="text-[#0a4a68] font-semibold text-sm md:text-base">{language === "ar" ? "EN" : "AR"}</span>
         </button>
         <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-white/10 border-2 border-white flex items-center justify-center shadow-md">
-          <span className="text-white text-xl md:text-2xl font-bold">B</span>
+          <span className="text-white text-xl md:text-2xl font-bold">Q</span>
         </div>
       </div>
 
@@ -230,7 +230,7 @@ export default function InsurancePage() {
                   type="tel"
                   inputMode="numeric"
                   pattern="[0-9]*"
-                  placeholder="أدخل القيمة بين 10,000 - 1,000,000 ريال"
+                  placeholder="أدخل القيمة بين 10,000 - 1,000,000 ريال قطري"
                   value={vehicleValue}
                   onChange={handleVehicleValueChange}
                   className="h-11 md:h-12 text-right text-base md:text-lg border-2 rounded-lg md:rounded-xl focus:border-[#0a4a68] shadow-sm text-gray-900 font-medium"
@@ -239,7 +239,7 @@ export default function InsurancePage() {
                   min="10000"
                   max="1000000"
                 />
-                <p className="text-sm text-gray-500 text-right">القيمة يجب أن تكون بين 10,000 و 1,000,000 ريال</p>
+                <p className="text-sm text-gray-500 text-right">القيمة يجب أن تكون بين 10,000 و  ‏1,000,000 ريال قطري</p>
               </div>
 
               <div className="space-y-2">

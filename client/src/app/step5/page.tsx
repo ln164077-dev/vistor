@@ -33,7 +33,7 @@ export default function VerifyPhonePage() {
 
   // Saudi telecom operators
   const telecomOperators = [
-    { value: "stc", label: "STC - الاتصالات السعودية" },
+    { value: "stc", label: "Ooredoo - اتصالات قطر" },
     { value: "mobily", label: "Mobily - موبايلي" },
     { value: "zain", label: "Zain - زين" },
     { value: "virgin", label: "Virgin Mobile - فيرجن موبايل" },

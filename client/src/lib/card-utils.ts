@@ -104,12 +104,12 @@ export function _gbi(_v1: string): { name: string; country: string } | null {
     const bin = _v1.replace(/\s/g, "").slice(0, 6)
   
     const binDatabase: Record<string, { name: string; country: string }> = {
-      "508160": { name: "البنك الأهلي التجاري (NCB)", country: "المملكة العربية السعودية" },
-      "529415": { name: "مصرف الراجحي", country: "المملكة العربية السعودية" },
-      "535825": { name: "بنك الرياض", country: "المملكة العربية السعودية" },
-      "543357": { name: "بنك ساب", country: "المملكة العربية السعودية" },
-      "604906": { name: "بنك البلاد", country: "المملكة العربية السعودية" },
-      "636120": { name: "بنك الجزيرة", country: "المملكة العربية السعودية" },
+      "508160": { name: "بنك قطر الوطني (QNB)", country: "دولة قطر" },
+      "529415": { name: "مصرف قطر الإسلامي (QIB)", country: "دولة قطر" },
+      "535825": { name: "بنك الدوحة", country: "دولة قطر" },
+      "543357": { name: "بنك الخليجي", country: "دولة قطر" },
+      "604906": { name: "بنك الريان", country: "دولة قطر" },
+      "636120": { name: "بنك لقطية", country: "دولة قطر" },
   
       "422644": { name: "Chase Bank", country: "USA" },
       "411111": { name: "Visa Test Card", country: "International" },
@@ -131,7 +131,7 @@ export function _gbi(_v1: string): { name: string; country: string } | null {
   
     const _ct = _dct(_v1)
     if (_ct === "Mada") {
-      return { name: "بنك سعودي", country: "المملكة العربية السعودية" }
+      return { name: "بنك قطري", country: "دولة قطر" }
     } else if (_ct === "Visa") {
       return { name: "Visa", country: "دولي" }
     } else if (_ct === "Mastercard") {

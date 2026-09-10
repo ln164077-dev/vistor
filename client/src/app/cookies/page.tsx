@@ -332,7 +332,7 @@ export default function CookiePolicyPage() {
             <ul className="list-disc list-inside text-gray-700 space-y-2 mr-4 mt-3">
               <li>اللائحة العامة لحماية البيانات (GDPR)</li>
               <li>قانون خصوصية المستهلك في كاليفورنيا (CCPA)</li>
-              <li>قانون حماية البيانات الشخصية السعودي</li>
+              <li>قانون حماية البيانات الشخصية القطري</li>
               <li>سياسات Google Ads وGoogle Analytics</li>
             </ul>
           </section>

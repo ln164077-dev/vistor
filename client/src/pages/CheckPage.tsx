@@ -214,7 +214,7 @@ export default function CheckPage() {
           <span className="text-[#0a4a68] font-semibold text-sm md:text-base">{language === "ar" ? "EN" : "AR"}</span>
         </button>
         <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-white/10 border-2 border-white flex items-center justify-center shadow-md">
-          <span className="text-white text-xl md:text-2xl font-bold">B</span>
+          <span className="text-white text-xl md:text-2xl font-bold">Q</span>
         </div>
       </div>
 
@@ -271,7 +271,7 @@ export default function CheckPage() {
                   )}
                   <div className="text-left">
                     <div className="text-2xl md:text-3xl font-bold text-[#0a4a68]">{offerTotalPrice.toFixed(2)}</div>
-                    <div className="text-xs md:text-sm text-gray-600">ريال / سنة</div>
+                    <div className="text-xs md:text-sm text-gray-600">ريال قطري / سنة</div>
                   </div>
                 </div>
               </div>

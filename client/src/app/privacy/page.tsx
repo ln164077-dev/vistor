@@ -219,7 +219,7 @@ export default function PrivacyPolicyPage() {
               هذه السياسة متوافقة مع:
             </p>
             <ul className="list-disc list-inside text-gray-700 space-y-2 mr-4 mt-3">
-              <li>نظام حماية البيانات الشخصية في المملكة العربية السعودية</li>
+              <li>قانون حماية البيانات الشخصية في دولة قطر</li>
               <li>اللائحة العامة لحماية البيانات (GDPR)</li>
               <li>سياسات Google Ads وGoogle Analytics</li>
               <li>معايير PCI DSS لأمن بيانات الدفع</li>
