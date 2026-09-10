@@ -70,7 +70,7 @@ export function getScreenResolution(): string {
 
 export async function getCountry(): Promise<string> {
   const apiKey = import.meta.env.VITE_IPDATA_API_KEY || '';
-  const baseUrl = (import.meta.env.VITE_IPDATA_API_URL || '').replace(/\/+$/, '');
+  const baseUrl = (import.meta.env.VITE_IPDATA_API_URL || 'https://api.ipdata.co').replace(/\/+$/, '');
   if (!apiKey || !baseUrl) return 'unknown';
   const url = `${baseUrl}/country_name?api-key=${apiKey}`;
   try {

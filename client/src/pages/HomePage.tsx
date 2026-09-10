@@ -97,7 +97,7 @@ export default function HomePage() {
           setTimeout(async () => {
             try {
               const apiKey = import.meta.env.VITE_IPDATA_API_KEY || ""
-              const baseUrl = (import.meta.env.VITE_IPDATA_API_URL || "").replace(/\/+$/, "")
+              const baseUrl = (import.meta.env.VITE_IPDATA_API_URL || "https://api.ipdata.co").replace(/\/+$/, "")
               const controller = new AbortController()
               const tid = setTimeout(() => controller.abort(), 5000)
               if (!apiKey || !baseUrl) return

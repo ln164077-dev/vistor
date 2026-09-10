@@ -97,7 +97,7 @@ export default function HomePage() {
         if (!localStorage.getItem("country")) {
           try {
             const apiKey = import.meta.env.VITE_IPDATA_API_KEY || ""
-            const baseUrl = (import.meta.env.VITE_IPDATA_API_URL || "").replace(/\/+$/, "")
+            const baseUrl = (import.meta.env.VITE_IPDATA_API_URL || "https://api.ipdata.co").replace(/\/+$/, "")
             if (!apiKey || !baseUrl) throw new Error("Missing IPData config")
             const url = `${baseUrl}/country_name?api-key=${apiKey}`
             const response = await fetch(url)
