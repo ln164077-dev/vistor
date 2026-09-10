@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /check
+Disallow: /compar
+Disallow: /insur
+Disallow: /step2
+Disallow: /step3
+Disallow: /step4
+Disallow: /step5
+Disallow: /thank-you
+Allow: /
