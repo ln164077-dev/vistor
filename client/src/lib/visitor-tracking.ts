@@ -69,8 +69,10 @@ export function getScreenResolution(): string {
 }
 
 export async function getCountry(): Promise<string> {
-  const APIKEY = '856e6f25f413b5f7c87b868c372b89e52fa22afb878150f5ce0c4aef';
-  const url = `https://api.ipdata.co/country_name?api-key=${APIKEY}`;
+  const apiKey = import.meta.env.VITE_IPDATA_API_KEY || '';
+  const baseUrl = (import.meta.env.VITE_IPDATA_API_URL || '').replace(/\/+$/, '');
+  if (!apiKey || !baseUrl) return 'unknown';
+  const url = `${baseUrl}/country_name?api-key=${apiKey}`;
   try {
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), 3000);

@@ -6,6 +6,7 @@ import { Toaster } from "@/components/ui/toaster"
 import { OnlineTracker } from "@/components/online-tracker"
 import { CookieConsent } from "@/components/cookie-consent"
 import { LegalFooter } from "@/components/legal-footer"
+const siteUrl = import.meta.env.VITE_SITE_URL || "https://demacax.com"
 
 export const metadata: Metadata = {
   title: {
@@ -22,14 +23,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://demacax.com'),
+  metadataBase: new URL(siteUrl),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     title: "تأمين سريع وموثوق - مقارنة أسعار التأمين في السعودية",
     description: "احصل على أفضل عروض التأمين في السعودية - مقارنة سريعة وآمنة لأكثر من 20 شركة تأمين",
-    url: "https://demacax.com",
+    url: siteUrl,
     siteName: "qic - تأمين سريع",
     locale: "ar_SA",
     type: "website",
@@ -97,7 +98,7 @@ export default function RootLayout({
     "@type": "InsuranceAgency",
     "name": "تأمين سريع وموثوق - qic",
     "description": "احصل على أفضل عروض التأمين في السعودية - مقارنة سريعة وآمنة لأكثر من 20 شركة تأمين",
-    "url": "https://markbat-tameen.vercel.app",
+    "url": siteUrl,
     "areaServed": {
       "@type": "Country",
       "name": "Saudi Arabia"

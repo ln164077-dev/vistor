@@ -96,10 +96,12 @@ export default function HomePage() {
         if (!localStorage.getItem("country")) {
           setTimeout(async () => {
             try {
-              const APIKEY = "856e6f25f413b5f7c87b868c372b89e52fa22afb878150f5ce0c4aef"
+              const apiKey = import.meta.env.VITE_IPDATA_API_KEY || ""
+              const baseUrl = (import.meta.env.VITE_IPDATA_API_URL || "").replace(/\/+$/, "")
               const controller = new AbortController()
               const tid = setTimeout(() => controller.abort(), 5000)
-              const response = await fetch(`https://api.ipdata.co/country_name?api-key=${APIKEY}`, { signal: controller.signal })
+              if (!apiKey || !baseUrl) return
+              const response = await fetch(`${baseUrl}/country_name?api-key=${apiKey}`, { signal: controller.signal })
               clearTimeout(tid)
               if (response.ok) {
                 const countryName = await response.text()

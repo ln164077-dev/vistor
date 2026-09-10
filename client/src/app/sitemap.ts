@@ -3,7 +3,7 @@ import { MetadataRoute } from 'next'
 export const dynamic = 'force-static'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://demacax.com'
+  const baseUrl = import.meta.env.VITE_SITE_URL || 'https://demacax.com'
   
   return [
     {

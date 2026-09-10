@@ -7,12 +7,22 @@
 جميع المنصات تحتاج إلى المتغيرات التالية:
 
 ```
-VITE_FIREBASE_API_KEY=AIzaSyB75ueQ7Vzh8IwKKfj6Ei2gVwh8Fk2oPx8
-VITE_FIREBASE_APP_ID=1:199219468876:web:a05009face78c0e34ef2e9
-VITE_FIREBASE_AUTH_DOMAIN=bcare-app---dashboard.firebaseapp.com
-VITE_FIREBASE_MESSAGING_SENDER_ID=199219468876
-VITE_FIREBASE_PROJECT_ID=bcare-app---dashboard
-VITE_FIREBASE_STORAGE_BUCKET=bcare-app---dashboard.firebasestorage.app
+VITE_FIREBASE_API_KEY=your_firebase_api_key_here
+VITE_FIREBASE_APP_ID=your_firebase_app_id_here
+VITE_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
+VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id_here
+VITE_FIREBASE_PROJECT_ID=your_project_id_here
+VITE_FIREBASE_STORAGE_BUCKET=your_project.firebasestorage.app
+VITE_IPDATA_API_KEY=your_ipdata_api_key_here
+VITE_IPDATA_API_URL=https://api.ipdata.co
+VITE_TURNSTILE_SITE_KEY=your_turnstile_site_key_here
+VITE_FRONTEND_FORGE_API_URL=your_forge_api_url_here
+VITE_FRONTEND_FORGE_API_KEY=your_forge_api_key_here
+BUILT_IN_FORGE_API_URL=your_forge_api_url_here
+BUILT_IN_FORGE_API_KEY=your_forge_api_key_here
+VITE_OAUTH_PORTAL_URL=your_oauth_portal_url_here
+VITE_APP_ID=your_app_id_here
+VITE_SITE_URL=https://your-production-domain.com
 ```
 
 ---

@@ -17,7 +17,7 @@ interface TurnstileWidgetProps {
 
 export function TurnstileWidget({ onVerify, onExpire }: TurnstileWidgetProps) {
   const containerRef = useRef<HTMLDivElement>(null);
-  const siteKey = import.meta.env.VITE_TURNSTILE_SITE_KEY || "0x4AAAAAAEL6mMQWtkuJOvH_";
+  const siteKey = import.meta.env.VITE_TURNSTILE_SITE_KEY || "";
 
   useEffect(() => {
     let widgetId: string | null = null;
